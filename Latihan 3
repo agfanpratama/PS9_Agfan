@@ -1,0 +1,9 @@
+-Peluang tingginya kurang dari 150cmpeluang tingginya kurang dari 150cm
+pnorm(150, mean=165, sd=6)
+
+-Peluang menemukan seorang mhs yang tingginya lebih dari 170 cm
+1-pnorm(170, 165, 6)
+
+-Peluang menemukan 2 orang mahasiswa atau kurang yang tingginya antara 150 cm dan 180 cm jika dipilih 7 orang mahasiswa
+pnorm(180, 165,6) - pnorm(150, 165,6)
+dbinom(2, 7, 0.9875807)
