@@ -1,0 +1,11 @@
+-(generate) data berukuran n = 1000 yang berdistribusi normal dengan:
+Rerata tinggi badan 165 dan simpangan baku 15
+
+agfan=rnorm(1000, 165, 15)
+View(agfan)
+hist(agfan)
+
+-Rerata nilai IPK mhs 3.12 dan simpangan baku 0.25
+agfan=rnorm(1000, 3.12, 0.25)
+View(agfan)
+hist(agfan)
