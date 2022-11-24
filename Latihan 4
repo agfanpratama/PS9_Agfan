@@ -1,0 +1,13 @@
+-Peluang waktu perrjalanan yang ditempuh Agus berkisar 125 hingga 158 menit
+
+prob_diatas_158= pnorm(158, mean = 175, sd = 30, lower.tail = FALSE)
+print(prob_diatas_158)
+prob_dibawah_125= pnorm(125, mean = 175, sd = 30, lower.tail = TRUE)
+print(prob_dibawah_125)
+
+-Probabilitas range
+
+prob_range = 1 - prob_diatas_158 - prob_dibawah_125
+print(prob_range)
+
+1-pnorm(150, 175, 30)
